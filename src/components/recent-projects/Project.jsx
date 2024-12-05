@@ -1,6 +1,7 @@
 import './project.css'
 
 function Project() {
+    const BASE_URL = import.meta.env.BASE_URL;
     return (
         <section id='projects' className="section">
             <h3 className="section-title" data-aos="fade-up">Recent Projects</h3>
@@ -30,7 +31,7 @@ function Project() {
                         <div className="card-body">
                             <div className="row">
                                 <div className="col-4 text-white">
-                                    <img src='./cashWhiz_dashboard.PNG' className='img-fluid' alt='cashwhiz image' />
+                                    <img src={BASE_URL + "/cashWhiz_dashboard.png"} className='img-fluid' alt='cashwhiz image' />
                                 </div>
                                 <div className='col-8'>
                                     <h4 className='title'>CashWhiz</h4>
@@ -48,8 +49,8 @@ function Project() {
                     <div className="card">
                         <div className="card-body">
                             <div className="row">
-                                <div className="col-4">
-                                    <img src='./vino.PNG' alt='vino image' />
+                                <div className="col-4 text-white">
+                                    <img src={BASE_URL + "/vino.PNG"} className='img-fluid' alt='vino image' />
                                 </div>
                                 <div className='col-8'>
                                     <h4 className='title'>Vino</h4>
@@ -67,8 +68,8 @@ function Project() {
                     <div className="card">
                         <div className="card-body">
                             <div className="row">
-                                <div className="col-4">
-                                    <img src='./cover.PNG' alt='AuthenticationWithSupabase image' />
+                                <div className="col-4 text-white">
+                                    <img src={BASE_URL + "/cover.PNG"} className='img-fluid' alt='AuthenticationWithSupabase image' />
                                 </div>
                                 <div className='col-8'>
                                     <h4 className='title'>AuthenticationWithSupabase</h4>
