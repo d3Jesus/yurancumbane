@@ -1,0 +1,42 @@
+
+.hero {
+    position: relative;
+}
+
+
+    .hero .hero-content {
+        position: relative;
+        z-index: 1;
+    }
+
+    .hero .hero-content h6 {
+        color: var(--yellow-color);
+    }
+
+    .hero .hero-content h1 {
+        font-size: 3.5rem;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 1.5rem;
+        color: var(--white-color);
+    }
+
+    .hero .hero-content h3 {
+        color: var(--muted-blue-color);
+    }
+
+@media (max-width: 992px) {
+    .hero .hero-content {
+        margin-bottom: 3rem;
+    }
+
+        .hero .hero-content h1 {
+            font-size: 2.5rem;
+        }
+}
+
+@media (max-width: 575px) {
+    .hero .hero-content h1 {
+        font-size: 2rem;
+    }
+}

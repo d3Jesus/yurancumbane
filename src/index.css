@@ -1,0 +1,46 @@
+:root {
+  --dark-blue-color: #102C43;
+  --light-blue-color:#1A374B;
+  --light-dark-green-color: #42A19B;
+  --muted-blue-color: #3F5A6E;
+  --white-color: #F9FEFE;
+  --yellow-color:#FEE969;
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.section {
+  margin-top: 4rem;
+}
+
+.section .section-title {
+  color: var(--white-color);
+}
+
+body {
+  background-color: var(--dark-blue-color) !important;
+}
+
+a {
+    color: var(--white-color);
+    text-decoration: none !important;
+    transition: 0.3s !important;
+}
+
+a:hover {
+  color: color-mix(in srgb, var(--yellow-color), transparent 25%) !important;
+}
+
+.badge {
+    color: var(--light-dark-green-color) !important;
+    background-color: var(--light-blue-color) !important;
+    margin: .4rem .5rem;
+    font-size: 1rem !important;
+}

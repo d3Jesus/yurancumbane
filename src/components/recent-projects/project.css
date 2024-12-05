@@ -1,0 +1,20 @@
+.card {
+    background-color:  var(--dark-blue-color)!important;
+    border: 0 !important;
+}
+
+.card:hover {
+    background-color: #1A374B !important;
+}
+
+.card .title {
+    color: var(--white-color);
+}
+
+.card .subtitle {
+    color: #527691;
+}
+
+.link {    
+  color: var(--yellow-color) !important;
+}

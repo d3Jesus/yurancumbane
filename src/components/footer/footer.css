@@ -1,0 +1,39 @@
+.footer {
+    color: var(--white-color);
+}
+
+.social-icon {
+    display: flex;
+    position: relative;
+    overflow: hidden; 
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+    transition: all 0.3s ease;
+    color: var(--white-color);
+}
+
+.social-icon .icon {
+    margin: auto;
+    font-size: 24px;
+    width: 32px;
+    height: 32px;
+    color: var(--muted-blue-color);
+    z-index: 1;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.social-icon .icon:hover {
+    color:var(--white-color);
+}
+
+@media (max-width: 576px) {
+    .order-xs-1 {
+        order: 1;
+    }
+
+    .order-xs-2 {
+        order: 2;
+    }
+}
