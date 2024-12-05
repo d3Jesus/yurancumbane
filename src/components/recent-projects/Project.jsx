@@ -31,7 +31,7 @@ function Project() {
                         <div className="card-body">
                             <div className="row">
                                 <div className="col-4 text-white">
-                                    <img src={BASE_URL + "/cashWhiz_dashboard.png"} className='img-fluid' alt='cashwhiz image' />
+                                    <img src={BASE_URL + "/cashWhiz_dashboard.PNG"} className='img-fluid' alt='cashwhiz image' />
                                 </div>
                                 <div className='col-8'>
                                     <h4 className='title'>CashWhiz</h4>
