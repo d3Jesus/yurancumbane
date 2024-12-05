@@ -84,7 +84,7 @@ function Project() {
             </div>
 
             <p className='text-center' data-aos="zoom-in" data-aos-delay="500">
-                <a className='link' href='#'>
+                <a className='link' href='https://github.com/d3Jesus'>
                     View more
                 </a>
             </p>
