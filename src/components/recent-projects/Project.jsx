@@ -21,7 +21,11 @@ const Project = () => {
         ))}
       </div>
 
-      <p className="text-center mt-4" data-aos="zoom-in" data-aos-delay="500">
+      <p
+        className="text-center mt-4"
+        data-aos="zoom-in"
+        data-aos-delay={projects.length + 1}
+      >
         <a className="link" href="https://github.com/d3Jesus">
           View more
         </a>

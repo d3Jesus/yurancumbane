@@ -3,6 +3,7 @@ import AOS from "aos";
 import { useEffect } from "react";
 import Stacks from "../Stacks";
 import { workExperience } from "../../constants";
+import ExperienceItem from "./ExperienceItem";
 
 function Experience() {
   useEffect(() => {
@@ -15,24 +16,22 @@ function Experience() {
         <h2>Experience</h2>
       </div>
 
-      {workExperience.map((exp) => (
-        <div key={exp.id} className="row gy-4 mt-4">
-          <div
-            className="col-lg-4 col-sm-12"
-            data-aos="fade-right"
-            data-aos-delay="100"
-          >
-            <h3 className="experience-duration">{exp.duration}</h3>
-          </div>
-          <div className="col" data-aos="fade-left" data-aos-delay="200">
-            <h2 className="role-company">
-              {exp.position} {exp.company && "@ " + exp.company}
-            </h2>
-            <p className="achievements">{exp.achivements}</p>
-            <Stacks key={exp.id} tools={exp.tools} />
-          </div>
-        </div>
-      ))}
+      <div className="gy-4">
+        {workExperience.map(
+          ({ id, duration, position, company, achivements, tools, delay }) => (
+            <ExperienceItem
+              key={id}
+              id={id}
+              duration={duration}
+              achivements={achivements}
+              position={position}
+              company={company}
+              tools={tools}
+              delay={delay}
+            />
+          )
+        )}
+      </div>
     </section>
   );
 }
