@@ -1,20 +1,43 @@
-.card {
-    background-color:  var(--dark-blue-color)!important;
-    border: 0 !important;
+.projects .project-item {
+  position: relative;
+  background-color: var(--light-blue-color);
+  box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
+  padding: 80px 0px;
+  transition: all ease-in-out 0.3s;
+  border-radius: 18px;
+  height: 100%;
 }
 
-.card:hover {
-    background-color: #1A374B !important;
+.projects .project-item .project-info {
+  opacity: 0;
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  bottom: 0;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  background: color-mix(in srgb, var(--light-blue-color), transparent 10%);
+  padding-bottom: 20px;
 }
 
-.card .title {
-    color: var(--white-color);
+.projects .project-item .project-info h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--white-color);
 }
 
-.card .subtitle {
-    color: #527691;
+.projects .project-item .project-info p {
+  color: color-mix(in srgb, var(--white-color), transparent 30%);
+  font-size: 14px;
+  margin-bottom: 0;
 }
 
-.link {    
-  color: var(--yellow-color) !important;
+.projects .project-item:hover .project-info {
+  opacity: 1;
+  bottom: 0;
+}
+
+.projects .project-item:hover h4 {
+  visibility: hidden;
+  opacity: 0;
 }

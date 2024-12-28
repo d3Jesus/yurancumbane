@@ -1,28 +1,43 @@
-import './navmenu.css'
+import "./navmenu.css";
+import { navItems } from "../../constants";
+import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useState } from "react";
 
 function Nav() {
-    return (
-        <nav className="navbar navbar-expand-lg navmenu">
-            <div className="container-fluid">
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="/">Home</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="#experiences">Experience</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="#projects">Projects</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="#posts">Writting</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    )
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const toggleMenu = () => {
+    setIsMenuOpen((value) => !value);
+  };
+  return (
+    <nav
+      id="navmenu"
+      className={`navmenu ${isMenuOpen ? "mobile-nav-active" : ""}`}
+    >
+      <ul>
+        {navItems.map((item) => (
+          <li key={item.id}>
+            <a href={item.link} className={`${item.id === 1 ? "active" : ""}`}>
+              {item.title}
+            </a>
+          </li>
+        ))}
+      </ul>
+      {isMenuOpen ? (
+        <FontAwesomeIcon
+          className="mobile-nav-toggle d-xl-none text-white"
+          icon={faX}
+          onClick={toggleMenu}
+        />
+      ) : (
+        <FontAwesomeIcon
+          className="mobile-nav-toggle d-xl-none text-white"
+          icon={faBars}
+          onClick={toggleMenu}
+        />
+      )}
+    </nav>
+  );
 }
 
-export default Nav
+export default Nav;
