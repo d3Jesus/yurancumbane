@@ -14,6 +14,8 @@ const Project = () => {
           <ProjectItem
             key={project.id}
             title={project.title}
+            imageUrl={project.imageUrl}
+            imageAlt={project.imageAlt}
             description={project.description}
             stacks={project.stacks}
             delay={project.delay}

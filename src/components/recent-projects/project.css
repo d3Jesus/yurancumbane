@@ -1,10 +1,14 @@
 .projects .project-item {
   position: relative;
-  background-color: var(--light-blue-color);
+  background-color: var(--dark-blue-color);
   box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
-  padding: 80px 0px;
+  /* padding: 80px 0px; */
   transition: all ease-in-out 0.3s;
   border-radius: 18px;
+  height: 100%;
+}
+
+.projects .project-item img {
   height: 100%;
 }
 
@@ -13,10 +17,10 @@
   position: absolute;
   left: 30px;
   right: 30px;
-  bottom: 0;
+  bottom: 10%;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: color-mix(in srgb, var(--light-blue-color), transparent 10%);
+  text-align: center;
   padding-bottom: 20px;
 }
 
@@ -37,7 +41,6 @@
   bottom: 0;
 }
 
-.projects .project-item:hover h4 {
-  visibility: hidden;
-  opacity: 0;
+.projects .project-item:hover img {
+  opacity: 0.1;
 }

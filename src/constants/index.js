@@ -54,6 +54,8 @@ export const services = [
 export const projects = [
     {
         "id":1,
+        "imageUrl": "/cover.PNG",
+        "imageAlt": "authentication with supabase image",
         "title" : "AuthenticationWithSupabase",
         "description" : "A demonstration ilustrating how to authenticate a Blazor Server application using Supabase for secure user authentication and access management.",
         "stacks" : ['Blazor Server', 'Supabase'],
@@ -61,6 +63,8 @@ export const projects = [
     },    
     {
         "id" : 2,
+        "imageUrl": "/portfolio.PNG",
+        "imageAlt": "portfolio image",
         "title" : "yurancumbane",
         "description" : "A personal portfolio that highlights my skills, showcase projects demonstrating how I can contribute to the success of your bussiness or project.",
         "stacks" : ['Vite + ReactJs', 'Bootstrap', 'Figma'],
@@ -68,6 +72,8 @@ export const projects = [
     },
     {
         "id" : 3,
+        "imageUrl": "/cashwhiz.PNG",
+        "imageAlt": "Cash whiz image",
         "title" : "CashWhiz",
         "description" : "A finance system designed to efficiently manage and control expenses with a user-friendly, streamlined approach.",
         "stacks" : ['Blazor Server', 'Supabase', 'Chart.js'],
@@ -75,6 +81,8 @@ export const projects = [
     },
     {
         "id" : 4,
+        "imageUrl": "/vino.PNG",
+        "imageAlt": "vino image",
         "title" : "Vino",
         "description" : "An inventory management system designed to help bussinesses in efficiently track, manage, and control their product stock and operations.",
         "stacks" : ['Blazor Server', 'EF Core', 'MySQL'],
@@ -82,6 +90,8 @@ export const projects = [
     },
     {
         "id" : 5,
+        "imageUrl": "/khumbuza_system.PNG",
+        "imageAlt": "khumbuza_system image",
         "title" : "KhumbuzaSystem",
         "description" : "Platform to optimize the monitoring and control of equipment usage time and maintenance.",
         "stacks" : ['Blazor Server', 'EF Core', 'MySQL', 'JavaScript'],
@@ -89,6 +99,8 @@ export const projects = [
     },
     {
         "id" : 6,
+        "imageUrl": "/bot.png",
+        "imageAlt": "bot image",
         "title" : "Database Automation Backup",
         "description" : "Scheduled database backup task, followed by data compression in ZIP format and transfer to a predefined directory.",
         "stacks" : ['UiPath Studio'],
