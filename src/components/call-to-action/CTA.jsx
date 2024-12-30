@@ -9,7 +9,11 @@ const CTA = () => {
     setIsExploding((explode) => !explode);
   };
   return (
-    <div className="cta text-center" data-aos="fade-right" data-aos-delay="100">
+    <div
+      className="section cta text-center"
+      data-aos="fade-right"
+      data-aos-delay="100"
+    >
       <h3 className="mb-3">Let's Create Something Amazing Together.</h3>
       <button className="shiny-cta" onClick={copyEmail}>
         {isExploding && <ConfettiExplosion force={0.6} />}
