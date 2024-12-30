@@ -72,7 +72,7 @@ export const projects = [
     },
     {
         "id" : 3,
-        "imageUrl": "/cashwhiz.PNG",
+        "imageUrl": "/cashwhiz_home.PNG",
         "imageAlt": "Cash whiz image",
         "title" : "CashWhiz",
         "description" : "A finance system designed to efficiently manage and control expenses with a user-friendly, streamlined approach.",
