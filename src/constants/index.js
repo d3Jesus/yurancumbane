@@ -101,7 +101,7 @@ export const workExperience = [
         "id" : 1,
         "position" : "Full Stack Web Developer",
         "company" : "Cinovate",
-        "achivements" : "Committed to delivering effective solutions, I led a team of two technicians in the optimization and maintenance of critical systems. For three months, I led the first phase of the development of a new management system, in addition to making refinements in C# code and SQL instructions, resulting in a significant increase in system performance.",
+        "achivements" : "I performed the analysis and optimization of manual systems into computarized solutions, being mainly responsable for the development and maintenance of the systems backend, including leading the complete life cicly of the Khumbuza System.",
         "duration" : "2023 - present",
         "tools" : ["C#", "Entity Framework Core", "Blazor", "Git", "MySQL", "RESTFul API"],
         "delay" : "100"
@@ -119,7 +119,7 @@ export const workExperience = [
         "id" : 3,
         "position" : "Freelance",
         "company" : "",
-        "achivements" : "Committed to delivering effective solutions, I treined friend to help me with my projects.",
+        "achivements" : "Driven by a passion for crafting innovative and tailored solutions, I'm commited to delivering  high-quality, user-centered results that empower bussinesses to grow and thrive in the digital world.",
         "duration" : "2018 - present",
         "tools" : ["Windows Form", "SQL Server", "JavaCript", "Visual Basic", "UiPath Studio", "drawio/UML", "C#"],
         "delay" : "300"

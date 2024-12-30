@@ -12,9 +12,9 @@ const CTA = () => {
     <div className="cta text-center" data-aos="fade-right" data-aos-delay="100">
       <h3 className="mb-3">Let's Create Something Amazing Together.</h3>
       <button className="shiny-cta" onClick={copyEmail}>
+        {isExploding && <ConfettiExplosion force={0.6} />}
         <span>Copy Email</span>
       </button>
-      {isExploding && <ConfettiExplosion force={0.6} />}
     </div>
   );
 };

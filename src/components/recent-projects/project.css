@@ -27,7 +27,7 @@
 }
 
 .projects .project-item .project-info p {
-  color: color-mix(in srgb, var(--white-color), transparent 30%);
+  color: var(--white-color);
   font-size: 14px;
   margin-bottom: 0;
 }
