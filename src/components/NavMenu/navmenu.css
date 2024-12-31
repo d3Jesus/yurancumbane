@@ -100,7 +100,7 @@
     padding: 10px 0;
     margin: 0;
     border-radius: 6px;
-    background-color: var(--white-color);
+    background-color: var(--dark-blue-color);
     box-shadow: none;
     overflow-y: auto;
     transition: 0.3s;
@@ -109,7 +109,7 @@
 
   .navmenu a,
   .navmenu a:focus {
-    color: var(--dark-blue-color) !important;
+    color: var(--white-color) !important;
     padding: 10px 20px !important;
     font-size: 17px;
     font-weight: 500;
