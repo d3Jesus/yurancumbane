@@ -29,13 +29,13 @@ function Nav() {
       </ul>
       {isMenuOpen ? (
         <FontAwesomeIcon
-          className="mobile-nav-toggle d-xl-none text-white"
+          className="mobile-nav-toggle d-xl-none"
           icon={faX}
           onClick={toggleMenu}
         />
       ) : (
         <FontAwesomeIcon
-          className="mobile-nav-toggle d-xl-none text-white"
+          className="mobile-nav-toggle d-xl-none"
           icon={faBars}
           onClick={toggleMenu}
         />

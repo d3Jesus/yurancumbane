@@ -1,13 +1,27 @@
 .footer {
-    color: var(--white-color);
+    background-color: #000;
+}
+
+.quick-links {
+    padding: 0;
+}
+
+.quick-links ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.quick-links ul li a {
+    color: var(--heading-color);
 }
 
 .social-icon {
     display: flex;
     position: relative;
-    overflow: hidden; 
-    width: 32px;
-    height: 32px;
+    overflow: hidden;
+    width: 24px;
+    height: 24px;
     margin-right: 8px;
     transition: all 0.3s ease;
     color: var(--white-color);
@@ -15,9 +29,9 @@
 
 .social-icon .icon {
     margin: auto;
-    font-size: 24px;
-    width: 32px;
-    height: 32px;
+    font-size: 14px;
+    width: 24px;
+    height: 24px;
     color: var(--muted-blue-color);
     z-index: 1;
     transition: all 0.3s ease;
@@ -25,7 +39,7 @@
 }
 
 .social-icon .icon:hover {
-    color:var(--white-color);
+    color: var(--light-dark-green-color);
 }
 
 @media (max-width: 576px) {

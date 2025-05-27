@@ -8,8 +8,13 @@
   height: 100%;
 }
 
-.projects .project-item img {
-  height: 100%;
+.projects .card {
+  height: 324px;
+}
+
+.projects .icon {
+  font-size: 14px;
+  margin-right: .3rem;
 }
 
 .projects .project-item .project-info {

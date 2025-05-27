@@ -27,7 +27,7 @@
 
   .navmenu a,
   .navmenu a:focus {
-    color: var(--white-color);
+    color: var(--heading-color);
     font-size: 15px;
     padding: 0 2px;
     font-weight: 400;
@@ -54,7 +54,7 @@
     height: 2px;
     bottom: -6px;
     left: 0;
-    background-color: var(--yellow-color);
+    background-color: var(--light-dark-green-color);
     visibility: hidden;
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
@@ -70,14 +70,14 @@
   .navmenu li:hover>a,
   .navmenu .active,
   .navmenu .active:focus {
-    color: var(--yellow-color);
+    color: var(--light-dark-green-color);
   }
 }
 
 /* Mobile Navigation */
 @media (max-width: 1199px) {
   .mobile-nav-toggle {
-    color: var(--white-color);
+    color: var(--heading-color);
     font-size: 28px;
     top: 15px;
     right: 15px;
@@ -100,7 +100,7 @@
     padding: 10px 0;
     margin: 0;
     border-radius: 6px;
-    background-color: var(--dark-blue-color);
+    background-color: var(--white-color);
     box-shadow: none;
     overflow-y: auto;
     transition: 0.3s;
@@ -109,7 +109,7 @@
 
   .navmenu a,
   .navmenu a:focus {
-    color: var(--white-color) !important;
+    color: var(--heading-color) !important;
     padding: 10px 20px !important;
     font-size: 17px;
     font-weight: 500;
@@ -159,9 +159,9 @@
   }
 
   .mobile-nav-active .mobile-nav-toggle {
-    color: red;
+    color: var(--white-color);
     position: absolute;
-    font-size: 32px;
+    font-size: 24px;
     top: 15px;
     right: 15px;
     margin-right: 0;
