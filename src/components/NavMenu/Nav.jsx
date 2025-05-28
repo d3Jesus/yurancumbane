@@ -19,7 +19,6 @@ function Nav() {
           <li key={item.id}>
             <a
               href={item.link}
-              className={`${item.id === 1 ? "active" : ""}`}
               onClick={toggleMenu}
             >
               {item.title}
