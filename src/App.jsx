@@ -6,7 +6,6 @@ import Footer from "./components/footer/Footer";
 
 import Header from "./components/Header";
 import Services from "./components/services/Services";
-import CTA from "./components/call-to-action/CTA";
 import Contact from "./components/contact/Contact";
 
 function App() {

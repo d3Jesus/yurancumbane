@@ -104,6 +104,11 @@ a {
   margin: auto;
 }
 
+@media (max-width: 768px) {
+  .section-title {
+    padding-bottom: 10px;
+  }
+}
 /**/
 :root {
   --shiny-cta-bg: #000000;

@@ -69,7 +69,7 @@ const Contact = () => {
                     <span className="mt-o pt-0">Let's Create Something Amazing Together.</span>
                 </div>
                 <div className="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
-                    <form className="col-6" onSubmit={handleSubmit}>
+                    <form className="col-12 col-lg-12" onSubmit={handleSubmit}>
                         {sentSucceeded && <ConfettiExplosion force={0.8} width={1600} particleCount={250} duration={3000} />}
                         {sentFailed && <><p className="text-danger">{errorMessage}</p></>}
 
