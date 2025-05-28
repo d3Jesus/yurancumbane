@@ -1,23 +1,13 @@
  .hero {
     width: 100%;
     min-height: calc(100vh - 92px);
-    /* position: relative; */
     padding: 60px 0;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     color: var(--white-color);
   }
-/*  
-  /* .hero img {
-    position: absolute;
-    inset: 0;
-    display: block;
-    /* width: 100%; */
-    /* height: 100%; *
-    object-fit: cover;
-    z-index: 1;
-  } *
   
   .hero:before {
     content: "";
@@ -25,13 +15,8 @@
     inset: 0;
     z-index: 2;
   }
-  
-  .hero .container {
-    position: relative;
-    z-index: 3;
-  }
-  */
-  .hero h2 {
+
+  .hero h1 {
     margin: 0;
     font-size: 54px;
     font-weight: 700;
@@ -41,20 +26,21 @@
   .hero p {
     margin: 5px 0 0 0;
     font-size: 16px;
-    font-weight: 600;
     color: black;
+    text-align: center;
   }
   
   .hero p span {
-    letter-spacing: 1px;
+    letter-spacing: 3px;
   }
   
   @media (max-width: 768px) {
-    .hero h2 {
+    .hero h1 {
       font-size: 32px;
     }
   
-    .hero p {
-      font-size: 20px;
+    .hero p span{
+      font-size: 15px;
+      letter-spacing: 1px;
     }
   }
