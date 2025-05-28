@@ -49,3 +49,15 @@
   top: 0;
   border: 2px solid var(--accent-color);
 }
+
+@media (max-width: 768px) {
+  .experiences .card .card-title {
+    flex-direction: column;
+  }
+  .experiences .card .card-title .role-company {
+    font-size: 18px;
+  }
+  .experiences .card .card-title .duration {
+    margin-top: .5rem;
+  }
+}

@@ -1,4 +1,3 @@
-import React from "react";
 import Stacks from "../Stacks";
 
 const ExperienceItem = ({
@@ -13,8 +12,8 @@ const ExperienceItem = ({
 	return (
 		<div className="card mt-3" data-aos="fade-up" data-aos-delay={delay}>
 			<div className="card-body">
-				<h3 className="card-title h4 d-flex align-items-center justify-content-between">
-					{position} {company && "@ " + company}
+				<h3 className="card-title h4 d-flex justify-content-between">
+					<span className="role-company">{position} {company && "@ " + company}</span>
 					<span className="text-muted duration">{duration}</span>
 				</h3>
 				<p className="card-text">
