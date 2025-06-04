@@ -131,7 +131,7 @@ export const workExperience = [
     {
         "id": 3,
         "position": "Computer Course Trainer",
-        "company": "Isac",
+        "company": "Isac's Professional Training Center",
         "achivements": "Preparation of basic and advanced computer classes; preparation and teaching material and test where the main content was typing, MS Office package(Word, Excel, PowerPoint and Publisher); graphic editing with Photoshop and internet.",
         "duration": "01/2020 - 02/2020",
         "tools": ["Word", "Excel", "PowerPoint", "Publisher"],
